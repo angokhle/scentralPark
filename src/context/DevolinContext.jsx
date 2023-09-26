@@ -67,6 +67,17 @@ const DevolinContextProvider = ({ children }) => {
     setIsContactOpen(false);
   };
 
+  // Login Button
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const openLoginSection = () => {
+    console.log("Devolin context jsx - login clicked")
+    setIsLoginOpen(true);
+  };
+  const closeLoginSection = () => {
+    setIsLoginOpen(false);
+  };
+
+
   // Price Modal
   const [isPriceModalOpen, setIsPriceModalOpen] = useState(false);
   const openPriceModalSection = () => {
@@ -223,6 +234,9 @@ const DevolinContextProvider = ({ children }) => {
         isContactOpen,
         openContactSection,
         closeContactSection,
+        isLoginOpen,
+        openLoginSection,
+        closeLoginSection,
         isPriceModalOpen,
         openPriceModalSection,
         closePriceModalSection,

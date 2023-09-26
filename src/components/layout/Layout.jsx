@@ -7,6 +7,7 @@ import FaqSection from '../faq/FaqSection'
 import GallerySection from '../gallery/GallerySection'
 import BlogSection from '../blog/BlogSection'
 import ContactSection from '../contact/ContactSection'
+import LoginSection from '../login/LoginSection'
 import PricingModal from '../modal/PricingModal'
 import BlogModal from '../modal/BlogModal'
 import SettingsSidebar from '../sidebar/SettingsSidebar'
@@ -24,6 +25,7 @@ const Layout = ({children}) => {
     <GallerySection/>
     <BlogSection/>
     <ContactSection/>
+    <LoginSection/>
     <PricingModal/>
     <BlogModal/>
     <SettingsSidebar/>

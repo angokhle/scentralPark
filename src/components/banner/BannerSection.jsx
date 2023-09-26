@@ -9,7 +9,8 @@ const BannerSection = () => {
       openFaqSection,
       openGallerySection,
       openBlogSection,
-      openContactSection
+      openContactSection,
+      openLoginSection
     } = useContext(DevolinContext)
   return (
     <div className="banner">
@@ -23,9 +24,9 @@ const BannerSection = () => {
         <a href="#" title="Linkedin">
           <i className="fa-brands fa-linkedin-in"></i>
         </a>
-        <a href="#" title="Skype">
+        {/* <a href="#" title="Skype">
           <i className="fa-brands fa-skype"></i>
-        </a>
+        </a> */}
       </div>
       <div className="container">
         <div className="row align-items-center">
@@ -124,14 +125,14 @@ const BannerSection = () => {
               <div className="btn-box">
                 <a
                   className="section-btn def-btn"
-                  data-section="about"
+                  data-section="login"
                   role="button"
-                  onClick={openAboutSection}
+                  onClick={openLoginSection}
                 >
-                  <i className="fa-light fa-user"></i> About Me
+                  <i className="fa-light fa-user"></i> Login
                 </a>
                 <a href="#" className="def-btn">
-                  <i className="fa-light fa-file-lines"></i> Download CV
+                  <i className="fa-light fa-file-lines"></i> Check Availability
                 </a>
               </div>
             </div>

@@ -13,8 +13,8 @@ const AboutSection = () => {
         <i className="fa-light fa-xmark"></i>
       </button>
         <AboutContent/>
-        <FunFactContent/>
-        <EducationContent/>
+        {/* <FunFactContent/>
+        <EducationContent/> */}
     </OverlayScrollbarsComponent>
   );
 };

@@ -26,11 +26,16 @@ const AboutContent = () => {
               <h2 className="section-title">
                 About <span>Me</span>
               </h2>
-              <p>I'm a professional front-end developer.</p>
+              <p>Hello there!
+A very warm welcome to you and your dog at The Scentral Park - our very first attempt at creating a Sensory Park for the dogs that we consider family, but are still unable to provide with species-specific entertainment for their holistic health and well-being.
+.</p>
               <p>
-                My motive is to build the best web design with my years of experience.
+              As promised, we now have the initial set-up for our dogs to explore and use to the best of their ability without being commanded or conditioned to do so by us.
+
+Since most of our dogs are living in urban environments, at first they would not know what to do in a vast open, quiet space that has so much to explore. 
+
               </p>
-              <div className="progress-wrap">
+              {/* <div className="progress-wrap">
                 {skills.map((skill, index) => (
                   <div className="progress-box" key={index}>
                     <div className="circle-progressbar">
@@ -51,7 +56,7 @@ const AboutContent = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
