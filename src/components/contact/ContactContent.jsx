@@ -58,7 +58,7 @@ return (
       <div className="row justify-content-center">
         <div className="col-xl-6 col-lg-5">
           <h2 className="section-title title-center">
-            get in touch with <span>me</span>
+            Registration form 
           </h2>
         </div>
       </div>
@@ -131,8 +131,7 @@ return (
                 <i className="fa-duotone fa-phone"></i>
               </div>
               <div className="part-txt">
-                <a href="#">+12 345 678 900</a>
-                <a href="#">+12 345 678 900</a>
+                <a href="#">+91 9945564013</a>
               </div>
             </div>
             <div className="single-box">
@@ -140,8 +139,7 @@ return (
                 <i className="fa-duotone fa-envelope"></i>
               </div>
               <div className="part-txt">
-                <a href="#">example@gmail.com</a>
-                <a href="#">example@gmail.com</a>
+                <a href="#">support@scentralpark.in</a>
               </div>
             </div>
             <div className="single-box">
@@ -149,7 +147,7 @@ return (
                 <i className="fa-duotone fa-map-location-dot"></i>
               </div>
               <div className="part-txt">
-                <p>3687 Emma Street, Lubbock, Texas, 79423, USA</p>
+                <p>Cheemanahalli, Devanahalli Taluk </p>
               </div>
             </div>
           </div>

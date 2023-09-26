@@ -105,7 +105,7 @@ const BannerSection = () => {
                     <span className="icon">
                       <i className="fa-thin fa-user-plus"></i>
                     </span>
-                    <span className="txt">CONTACT</span>
+                    <span className="txt">Register</span>
                   </a>
                 </div>
               </div>
