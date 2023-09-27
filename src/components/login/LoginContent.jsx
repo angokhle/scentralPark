@@ -1,6 +1,8 @@
-import React from "react";
-import { useState } from "react";
+import { createContext, useEffect, useRef, useState } from "react";
+
 import axios from "axios";
+
+const loginContext = createContext();
 
 const LoginContent = () => {
 
@@ -14,20 +16,28 @@ const LoginContent = () => {
     // You can perform actions with the form data here
     try {
       // Make an HTTP POST request to your backend API
-      const response = await axios.post('https://fwx72m-8080.csb.app/petOwners', formData);
+      const response = await axios.post('https://fwx72m-8080.csb.app/petOwnersAuth', formData);
 
       // Handle a successful response here (e.g., show a success message)
-      console.log('Post request successful', response.data);
-      alert("post request successful")
-
+      console.log('Post request successful', response.data.result);
+      const responseEmail = response.data.result[0].email
+      const responseName = response.data.result[0].firstName
+      
+      if (formData.email === responseEmail) { 
+          alert (`Welcome ${responseName}` ) 
+        } else {
+          alert ("Please check your email" )
+        } 
+        
       // Optionally, reset the form after successful submission
-      setFormData({
-        phone: "",
-        email: "",
-      });
+      // setFormData({
+      //   phone: "",
+      //   email: "",
+      // });
     } catch (error) {
       // Handle any errors that occur during the request
       console.error('Error submitting data:', error);
+      alert ("Please check your email" )
       // Optionally, provide feedback to the user about the error
     
   };

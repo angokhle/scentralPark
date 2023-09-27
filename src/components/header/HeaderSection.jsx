@@ -23,13 +23,14 @@ const HeaderSection = () => {
             </div>
             <div className="col-6">
                 <div className="nav-btn">
-                    <a className="theme-btn" role='button' onClick={toggleRtlMode}>{isRtlMode? 'LTR':'RTL'}</a>
+                    <a className="theme-btn" role='button' >{ ''}</a>
+                   
                     <a role="button" id="sidebar" onClick={openSidebarSection}><i className="fa-thin fa-gear"></i></a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> //onClick={toggleRtlMode} isRtlMode
   )
 }
 

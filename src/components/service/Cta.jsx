@@ -6,12 +6,12 @@ const Cta = () => {
         <div className="container">
             <div className="d-sm-flex d-block align-items-center">
                 <div className="part-txt">
-                    <h2>Have Any Project In Mind?</h2>
+                    <h2>Book your slot today !</h2>
                 </div>
                 <div className="part-btn">
-                    <a href="#" className="def-btn def-btn-2">Submit A Proposal</a>
+                    <a href="#" className="def-btn def-btn-2">Check Availability</a>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
   )

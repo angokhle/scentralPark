@@ -24,23 +24,18 @@ const PricingContent = () => {
                             </div>
                             <div className="middle">
                                 <ul>
-                                    <li>Web Designing <span>${item.webDesign}.00 <small>(p/pjct)</small></span></li>
-                                    <li>UI Designing <span>${item.uiDesign}.00 <small>(p/pjct)</small></span></li>
-                                    <li>Logo Design <span>${item.logoDesign}.00 <small>(p/pjct)</small></span></li>
-                                    <li>Photography <span>${item.photography}.00 <small>(p/pjct)</small></span></li>
-                                    <li>Video Editing <span>${item.videoEditing}.00 <small>(p/pjct)</small></span></li>
-                                    <li>Social Marketing <span>${item.socialMarketing}.00 <small>(p/pjct)</small></span></li>
+                                    <li>Weekday Park Visit<span>${item.webDesign}.00 <small>(p/pjct)</small></span></li>
                                 </ul>
                             </div>
                             <div className="bottom">
-                                <button 
+                                {/* <button 
                                 className="def-btn" 
                                 data-bs-toggle="modal" 
                                 data-bs-target="#pricingModal"
                                 onClick={openPriceModalSection}
                                 >
                                     Start A Project
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     </div>   

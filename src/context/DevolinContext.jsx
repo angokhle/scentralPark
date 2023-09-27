@@ -72,6 +72,7 @@ const DevolinContextProvider = ({ children }) => {
   const openLoginSection = () => {
     console.log("Devolin context jsx - login clicked")
     setIsLoginOpen(true);
+    
   };
   const closeLoginSection = () => {
     setIsLoginOpen(false);

@@ -16,8 +16,11 @@ const ServiceContent = () => {
                             <span><i className="fa-thin fa-laptop-code"></i></span>
                         </div>
                         <div className="part-txt">
-                            <h3>Web Designing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, iusto! Optio, eveniet accusantium sit cum.</p>
+                            <h3>Visit the Park</h3>
+                            <p>A dog that is yet uninitiated to quiet, open spaces where they can actually using their senses without being overwhelmed by the hyper-stimulation of day-to-day life (traffic, construction, vehicular noise and pollution, density of population - both human and animal, etc) may actually initially take time to orient themselves in Scentral Park.
+
+Your job, for the initial 15 to 20 mins, is to do absolutely nothing. Just move around with your dog, or sit in a designated space while your pooch begins to use his/her head. When they do, you may find them use specific senses, such as smell, or touch, textures (such as sand, water, etc.). 
+</p>
                         </div>
                     </div>
                 </div>
@@ -27,8 +30,8 @@ const ServiceContent = () => {
                             <span><i className="fa-thin fa-object-ungroup"></i></span>
                         </div>
                         <div className="part-txt">
-                            <h3>UI Designing</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, iusto! Optio, eveniet accusantium sit cum.</p>
+                            <h3>Camp at the park</h3>
+                            <p>Camping text.</p>
                         </div>
                     </div>
                 </div>
@@ -38,12 +41,14 @@ const ServiceContent = () => {
                             <span><i className="fa-thin fa-palette"></i></span>
                         </div>
                         <div className="part-txt">
-                            <h3>Logo Design</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, iusto! Optio, eveniet accusantium sit cum.</p>
+                            <h3>socialising </h3>
+                            <p>Socialization is not just about your dog being friendly with other dogs.
+
+Socialization is preparing your dog with the skill of coping with confidence in multiple environments and situations, both with humans and other dogs, depending on your lifestyle choices.</p>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-sm-6">
+                {/* <div className="col-lg-4 col-sm-6">
                     <div className="single-service-box">
                         <div className="part-icon">
                             <span><i className="fa-thin fa-camera-retro"></i></span>
@@ -53,8 +58,8 @@ const ServiceContent = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, iusto! Optio, eveniet accusantium sit cum.</p>
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-4 col-sm-6">
+                </div> */}
+                {/* <div className="col-lg-4 col-sm-6">
                     <div className="single-service-box">
                         <div className="part-icon">
                             <span><i className="fa-thin fa-film"></i></span>
@@ -64,8 +69,8 @@ const ServiceContent = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, iusto! Optio, eveniet accusantium sit cum.</p>
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-4 col-sm-6">
+                </div> */}
+                {/* <div className="col-lg-4 col-sm-6">
                     <div className="single-service-box">
                         <div className="part-icon">
                             <span><i className="fa-thin fa-bullhorn"></i></span>
@@ -75,7 +80,7 @@ const ServiceContent = () => {
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, iusto! Optio, eveniet accusantium sit cum.</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
