@@ -10,7 +10,8 @@ const BannerSection = () => {
       openGallerySection,
       openBlogSection,
       openContactSection,
-      openLoginSection
+      openLoginSection,
+      openPetDetailsSection
     } = useContext(DevolinContext)
   return (
     <div className="banner">
@@ -89,11 +90,11 @@ const BannerSection = () => {
                   </a>
                 </div>
                 <div className="single-item">
-                  <a role="button" className="section-btn" data-section="blog" onClick={openBlogSection}>
+                  <a role="button" className="section-btn" data-section="blog" onClick={openPetDetailsSection}>
                     <span className="icon">
                       <i className="fa-thin fa-file-pen"></i>
                     </span>
-                    <span className="txt">BLOG</span>
+                    <span className="txt">Pet Details</span>
                   </a>
                 </div>
                 <div className="single-item">
@@ -109,6 +110,7 @@ const BannerSection = () => {
                     <span className="txt">Register</span>
                   </a>
                 </div>
+                
               </div>
             </div>
           </div>

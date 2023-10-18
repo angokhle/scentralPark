@@ -12,6 +12,7 @@ import PricingModal from '../modal/PricingModal'
 import BlogModal from '../modal/BlogModal'
 import SettingsSidebar from '../sidebar/SettingsSidebar'
 import LightboxModal from '../modal/LightboxModal'
+import PetSection from '../pet/petSection'
 
 const Layout = ({children}) => {
   return (
@@ -26,6 +27,7 @@ const Layout = ({children}) => {
     <BlogSection/>
     <ContactSection/>
     <LoginSection/>
+    <PetSection/>
     <PricingModal/>
     <BlogModal/>
     <SettingsSidebar/>

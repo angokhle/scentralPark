@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import ContactContent from "./ContactContent";
 import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
 import { DevolinContext } from "../../context/DevolinContext";
+import MyComponent from "../table/dataTable";
 
 const ContactSection = () => {
     const {isContactOpen,closeContactSection} = useContext(DevolinContext)
@@ -11,6 +12,7 @@ const ContactSection = () => {
         <i className="fa-light fa-xmark"></i>
       </button>
       <ContactContent />
+      <MyComponent/>
     </OverlayScrollbarsComponent>
   );
 };

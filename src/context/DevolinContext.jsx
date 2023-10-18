@@ -78,6 +78,17 @@ const DevolinContextProvider = ({ children }) => {
     setIsLoginOpen(false);
   };
 
+  // PetDetails Button
+  const [isPetDetailsOpen, setIsPetDetailsOpen] = useState(false);
+  const openPetDetailsSection = () => {
+    console.log("Devolin context jsx - Pet details clicked")
+    setIsPetDetailsOpen(true);
+    
+  };
+  const closePetDetailsSection = () => {
+    setIsPetDetailsOpen(false);
+  };
+
 
   // Price Modal
   const [isPriceModalOpen, setIsPriceModalOpen] = useState(false);
@@ -238,6 +249,9 @@ const DevolinContextProvider = ({ children }) => {
         isLoginOpen,
         openLoginSection,
         closeLoginSection,
+        isPetDetailsOpen,
+        openPetDetailsSection,
+        closePetDetailsSection,
         isPriceModalOpen,
         openPriceModalSection,
         closePriceModalSection,

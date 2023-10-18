@@ -1,8 +1,7 @@
-import { createContext, useEffect, useRef, useState } from "react";
-
+import { createContext, useEffect, useRef, useState, useContext } from "react";
 import axios from "axios";
-
 const loginContext = createContext();
+import { DevolinContext } from "../../context/DevolinContext";
 
 const LoginContent = () => {
 
@@ -11,13 +10,13 @@ const LoginContent = () => {
     email: "",
   });
 
+  const {isLoginOpen,closeLoginSection} = useContext(DevolinContext)
   const handleSubmit = async (e) => {
     e.preventDefault();
     // You can perform actions with the form data here
     try {
       // Make an HTTP POST request to your backend API
       const response = await axios.post('https://fwx72m-8080.csb.app/petOwnersAuth', formData);
-
       // Handle a successful response here (e.g., show a success message)
       console.log('Post request successful', response.data.result);
       const responseEmail = response.data.result[0].email
@@ -25,6 +24,7 @@ const LoginContent = () => {
       
       if (formData.email === responseEmail) { 
           alert (`Welcome ${responseName}` ) 
+          {closeLoginSection()}
         } else {
           alert ("Please check your email" )
         } 
@@ -37,7 +37,7 @@ const LoginContent = () => {
     } catch (error) {
       // Handle any errors that occur during the request
       console.error('Error submitting data:', error);
-      alert ("Please check your email" )
+      alert ("Please check your Email & Phone" )
       // Optionally, provide feedback to the user about the error
     
   };

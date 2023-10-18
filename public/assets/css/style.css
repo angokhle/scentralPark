@@ -196,7 +196,7 @@ TABLE OF CONTENTS:
   }
 }
 :root{
-  --main-color: linear-gradient(135deg, #CB26B6, #F8B127);
+  --main-color: linear-gradient(135deg, #434343, #f4cccc);
 }
 .root-layout{
   position: fixed;
@@ -287,9 +287,9 @@ textarea {
 }
 
 .os-host .os-scrollbar .os-scrollbar-track .os-scrollbar-handle {
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg, #434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
 }
 
 .os-host:hover .os-scrollbar,
@@ -298,15 +298,15 @@ textarea {
 }
 
 .os-theme-dark>.os-scrollbar:hover>.os-scrollbar-track>.os-scrollbar-handle {
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
 }
 
 .os-theme-dark>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle.active {
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
 }
 
 .section-title {
@@ -340,9 +340,9 @@ textarea {
   left: 0;
   width: 100px;
   height: 13px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   background: url(../images/vector-1.png) center center no-repeat;
   background-size: 100px;
   border-radius: 3px;
@@ -353,9 +353,9 @@ textarea {
   width: -moz-max-content;
   width: max-content;
   color: transparent;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -421,9 +421,9 @@ textarea {
   width: 35px;
   height: 40px;
   line-height: 20px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   color: #fff;
   font-size: 20px;
   border: 0;
@@ -437,9 +437,9 @@ textarea {
   height: 50px;
   line-height: 50px;
   padding: 0 25px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -539,9 +539,9 @@ textarea {
   height: 35px;
   line-height: 35px;
   font-size: 20px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   color: #fff;
   border-radius: 50%;
 }
@@ -569,9 +569,9 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   opacity: 0.5;
   z-index: -1;
 }
@@ -806,9 +806,9 @@ textarea {
   line-height: 32px;
   font-size: 14px;
   color: #fff;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   border-radius: 50%;
 }
 
@@ -904,9 +904,9 @@ textarea {
   height: 35px;
   line-height: 35px;
   font-size: 20px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg, #78e650, #F8B127);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   color: #fff;
   border-radius: 5px;
 }
@@ -1022,9 +1022,9 @@ textarea {
   line-height: 30px;
   font-size: 14px;
   color: #fff;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg, #78e650, #F8B127);
+  background: -o-linear-gradient(315deg, #78e650, #F8B127);
+  background: linear-gradient(135deg, #78e650, #F8B127);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
@@ -1039,9 +1039,9 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
-  background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
-  background: linear-gradient(135deg, #F8B127, #CB26B6);
+  background: -webkit-linear-gradient(315deg, #F8B127, #78e650);
+  background: -o-linear-gradient(315deg, #F8B127, #78e650);
+  background: linear-gradient(135deg, #F8B127, #78e650);
   border-radius: 15px;
   opacity: 0;
   -webkit-transition: .3s;
@@ -1109,11 +1109,11 @@ textarea {
 }
 
 .banner .banner-txt h1 span {
-  color: #CB26B6;
+  color: #78e650;
   color: transparent;
-  background: -webkit-linear-gradient(315deg, #F8B127, #CB26B6);
-  background: -o-linear-gradient(315deg, #F8B127, #CB26B6);
-  background: linear-gradient(135deg, #F8B127, #CB26B6);
+  background: -webkit-linear-gradient(315deg, #F8B127, #78e650);
+  background: -o-linear-gradient(315deg, #F8B127, #78e650);
+  background: linear-gradient(135deg, #F8B127, #78e650);
   -webkit-background-clip: text;
   background-clip: text;
   font-weight: 700;
@@ -1396,9 +1396,9 @@ textarea {
   font-size: 35px;
   line-height: 1.1;
   color: transparent;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-background-clip: text;
   background-clip: text;
   margin-bottom: 26px;
@@ -1428,9 +1428,9 @@ textarea {
 
 .banner .nav-wrap-3 .nav-grid .single-item {
   width: calc(100% / 7 - 17.2px);
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   border-radius: 10px;
   -webkit-transform: skew(7deg);
   -ms-transform: skew(7deg);
@@ -2407,9 +2407,9 @@ textarea {
 
 .about .education ul li .single-box .duration {
   display: block;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   padding: 0 15px;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -2800,9 +2800,9 @@ textarea {
   font-size: 50px;
   line-height: 50px;
   color: transparent;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-transition: .5s;
@@ -2903,9 +2903,9 @@ textarea {
 }
 
 .service .pricing .single-price .top {
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   background: url(../images/vector-3.png) bottom center no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -2951,9 +2951,9 @@ textarea {
   border-radius: 50%;
   font-size: 35px;
   color: transparent;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -3338,9 +3338,9 @@ textarea {
   left: 0;
   height: 2px;
   width: 0;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
@@ -3397,9 +3397,9 @@ textarea {
   line-height: 25px;
   height: 25px;
   color: #fff;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   border-radius: 5px;
   padding: 0 15px;
   margin-bottom: 20px;
@@ -3473,9 +3473,9 @@ textarea {
   left: 0;
   width: 0;
   height: 1px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
@@ -3660,9 +3660,9 @@ textarea {
 }
 
 .portfolio .testimonial .single-feedback .part-img img {
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   padding: 7px;
   border-radius: 50%;
 }
@@ -4132,9 +4132,9 @@ textarea {
   font-weight: 100;
   font-size: 400px;
   color: transparent;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-transform: rotate(20deg);
@@ -4193,9 +4193,9 @@ textarea {
   height: 35px;
   line-height: 35px;
   font-size: 18px;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   color: #fff;
   border-radius: 50%;
 }
@@ -4308,9 +4308,9 @@ textarea {
   left: 0;
   right: 0;
   max-height: 100%;
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127);
-  background: linear-gradient(135deg, #CB26B6, #F8B127);
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc);
+  background: -o-linear-gradient(315deg,#434343, #f4cccc);
+  background: linear-gradient(135deg,#434343, #f4cccc);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5102,9 +5102,9 @@ div#contact {
   position: fixed;
 }
 .os-scrollbar-handle{
-  background: -webkit-linear-gradient(315deg, #CB26B6, #F8B127) !important;
-  background: -o-linear-gradient(315deg, #CB26B6, #F8B127) !important;
-  background: linear-gradient(135deg, #CB26B6, #F8B127) !important;
+  background: -webkit-linear-gradient(315deg,#434343, #f4cccc) !important;
+  background: -o-linear-gradient(315deg,#434343, #f4cccc) !important;
+  background: linear-gradient(135deg,#434343, #f4cccc) !important;
 }
 .form-select:focus{
   box-shadow: unset;
