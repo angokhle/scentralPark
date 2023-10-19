@@ -12,7 +12,6 @@ const ContactSection = () => {
         <i className="fa-light fa-xmark"></i>
       </button>
       <ContactContent />
-      <MyComponent/>
     </OverlayScrollbarsComponent>
   );
 };

@@ -43,7 +43,6 @@ return (
             <tr>
             <th>Name</th>
             <th>Age</th>
-            <th>Gender</th>
         </tr>
               <tr>
                 <td>
@@ -52,14 +51,8 @@ return (
                 <td>
                     <input type="text" />
                 </td>
-                <td>
-                    <input type="text" />
-                </td>
               </tr>
               <tr>
-                <td>
-                    <input type="text" />
-                </td>
                 <td>
                     <input type="text" />
                 </td>
@@ -70,7 +63,7 @@ return (
             </tbody>
         </table>
       
-            <button type="submit" className="def-btn">Submit</button>
+            <button style={{marginTop: "5%"}} type="submit" className="def-btn">Submit</button>
           </form>
         </div>
         
