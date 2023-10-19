@@ -17,7 +17,7 @@ import PetSection from '../pet/petSection'
 const Layout = ({children}) => {
   return (
     <div className='root-layout'>
-    <HeaderSection/>
+    {/* <HeaderSection/> */}
     {children}
     <AboutSection/>
     <Service/>
